@@ -11,7 +11,7 @@ So instead of taking the result as “model was wrong,” I realized this is som
 
 ## 🔥 What the model does right now
 - trains a Logistic Regression classifier
-- uses sample NBA-style scoring data
+- utilizes sample NBA-style scoring data
 - evaluates accuracy using scikit-learn
 - predicts whether the HOME team is more likely to win
 - gives probability (e.g., “Estimated probability home team wins: 72%”)
