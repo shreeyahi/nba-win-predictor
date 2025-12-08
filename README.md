@@ -24,6 +24,10 @@ Activate your venv and run:
 
 ```bash
 python main.py
+```bash
+python main.py
+```
+
 
 
 ## 🧠 Why I’m interested in this
