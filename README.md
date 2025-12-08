@@ -24,6 +24,8 @@ Activate your venv and run:
 
 ```bash
 python main.py
+
+
 ## 🧠 Why I’m interested in this
 I love the NBA (especially the Warriors), and this was a way for me to mix basketball with machine learning. I think sports analytics is such a fun way of learning data science because I can actually compare results with real games instead of solving random equations.
 
