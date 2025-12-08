@@ -14,7 +14,7 @@ So instead of taking the result as “model was wrong,” I realized this is som
 - uses sample NBA-style scoring data
 - evaluates accuracy using scikit-learn
 - predicts whether the HOME team is more likely to win
-- gives probability (e.g., “home team wins with 72% confidence”)
+- gives probability (e.g., “Estimated probability home team wins: 72%”)
 - lets me type in two teams and compare them
 
 ---
