@@ -23,3 +23,40 @@ Activate your venv and run:
 
 ```bash
 python main.py
+## 🧠 Why I’m interested in this
+I love the NBA (especially the Warriors), and this was a way for me to mix basketball with machine learning. I think sports analytics is such a fun way of learning data science because I can actually compare results with real games instead of solving random equations.
+
+---
+
+## ✨ What I learned
+- how Logistic Regression works
+- how accuracy/testing works in ML
+- how different features change predictions
+- simple data pre-processing
+- evaluating models beyond just accuracy
+- that real basketball isn’t only numbers — players matter a LOT
+
+---
+
+## 🔮 Next steps / Future improvements
+- use real NBA datasets instead of example numbers
+- account for injured or missing players
+- compare multiple ML models (Random Forest, XGB, etc.)
+- add playoff matchups
+- add lineup/offensive-rating impact (Curry off court, Draymond defense, etc.)
+- maybe build a Streamlit web app later
+
+---
+
+## 🛠 Tools used
+- Python  
+- scikit-learn  
+- pandas  
+- VS Code  
+- GitHub  
+
+---
+
+## 🏆 Personal note
+This project is part of my AI portfolio for university and something I want to keep improving. I also want to try predicting Warriors playoff matchups later and compare model probabilities with real outcomes, especially when Curry or key starters are out.
+
