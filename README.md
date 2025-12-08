@@ -1,31 +1,25 @@
-# NBA Win Predictor (Machine Learning)
+# 🏀 NBA Win Predictor (Machine Learning & Basketball Analytics)
 
-This project uses Logistic Regression to predict which NBA team is more likely to win based on offensive and defensive efficiency averages (Points Per Game scored and allowed).
+I built a machine learning model that predicts NBA home-game outcomes based on offensive and defensive averages (points scored vs points allowed). The cool part is that I actually tested these predictions on real Warriors games instead of just running code and assuming it’s correct. I’m a huge Golden State fan, so of course I tested the model on Warriors matchups first 😅
 
-The model is trained on a set of toy NBA-style statistics and allows the user to input season averages for both teams. It then returns:
-- predicted winner (home or away)
-- and estimated win probability
+At one point, I tried Golden State vs Cleveland, and the model predicted Cleveland would win. The funny part is the Warriors actually won that game — but Curry was out, and the model currently has no idea which players are missing, so it just uses the full-strength scoring stats. That instantly showed me one of the biggest weaknesses in sports analytics: *player availability changes everything.*
 
----
-
-## 🔥 Current Features
-- Train/test split
-- Logistic Regression
-- Confusion matrix
-- Classification report
-- User input predictions
-- Probability of winning
+So instead of taking the result as “model was wrong,” I realized this is something I want to improve (and it's actually really realistic). In the future, I want to include things like injuries, starters vs bench lineups, player offensive impact, etc.
 
 ---
 
-## 🏀 Why this project?
-I am a big basketball fan, especially the Golden State Warriors, and I wanted to start building AI applications that combine my personal interests with data science & machine learning.
-
-This will eventually evolve into a larger portfolio of sports analytics and AI projects connected to the NBA.
+## 🔥 What the model does right now
+- trains a Logistic Regression classifier
+- uses sample NBA-style scoring data
+- evaluates accuracy using scikit-learn
+- predicts whether the HOME team is more likely to win
+- gives probability (e.g., “home team wins with 72% confidence”)
+- lets me type in two teams and compare them
 
 ---
 
-## 🚀 How to Run
+## 🚀 How to run it
+Activate your venv and run:
 
 ```bash
 python main.py
