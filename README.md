@@ -20,10 +20,9 @@ So instead of taking the result as “model was wrong,” I realized this is som
 ---
 
 ## 🚀 How to run it
+
 Activate your venv and run:
 
-```bash
-python main.py
 ```bash
 python main.py
 ```
