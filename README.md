@@ -5,7 +5,7 @@ I built a machine learning model that predicts NBA home-game outcomes based on o
 Since this morning, (7th December 2025). Well, morning in UAE at least was the Golden State vs Cleveland matchup, I decided to put this model to the test and see how accurate it was. Golden State won (🥳), howeverrr, the model was wrong and said that we had only a 3.6% chance of winning 😗... 
 That was when I spotted a limitation. Star players like Steph Curry, Jimmy Butler, Draymond Green (and 9 others on both teams)  were out, and the model didn't acknowledge/account for those players. So, it just uses the full-strength scoring stats. That instantly showed me one of the biggest weaknesses in sports analytics: *player availability changes everything.*
 
-So instead of taking the result as “model was wrong,” I realized this is something I want to improve (and it's actually really realistic). In the future, I want to include things like injuries, starters vs bench lineups, player offensive impact, etc.
+So instead of taking the result as “model was wrong,” I realized this is something I want to improve (and it's actually really realistic). In the future, I want to include things like injuries, starters vs bench lineups, player offensive impact, coaching style, etc.
 
 ---
 
